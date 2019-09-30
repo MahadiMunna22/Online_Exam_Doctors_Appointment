@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:text="Serial: "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Serial"
+        />
+    <TextView
+        android:text="Name: "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Show_Doctor_name"
+        />
+    <TextView
+        android:text="Date: "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/ShowTime"
+        />
+    <TextView
+        android:text="Time: "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/ShowDate"
+        />
+    <TextView
+        android:text="Tests: "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Show_tests"
+        />
+</LinearLayout>
